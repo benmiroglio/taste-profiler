@@ -1,0 +1,22 @@
+.RecentTrackList {
+  height: 200px;
+  overflow-y: scroll;
+  padding: .88rem;
+  background-color: #282828;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+p {
+  color: white;
+}
+
+@media only screen and (max-width: 1020px) {
+  .RecentTrackList {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
